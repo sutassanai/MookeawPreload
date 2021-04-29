@@ -98,20 +98,16 @@ namespace PreloadAlert
             {
                 Directory.CreateDirectory(Path.Combine(DirectoryFullName, "Dumps"));
                 var path = Path.Combine(DirectoryFullName, "Dumps",
-                    $"{GameController.Area.CurrentArea.Name} ({DateTime.Now}).txt");
-
+                    $"{GameController.Area.CurrentArea.Name}.txt");//({DateTime.Now}).txt");
                 File.WriteAllLines(path, PreloadDebug);
             }
 
             if (ImGui.Button("Dump grouped preloads"))
             {
-                var groupBy = PreloadDebug.OrderBy(x => x).GroupBy(x => x.IndexOf('/'));
-                var serializeObject = JsonConvert.SerializeObject(groupBy, Formatting.Indented);
-
+                Directory.CreateDirectory(Path.Combine(DirectoryFullName, "Dumps"));
                 var path = Path.Combine(DirectoryFullName, "Dumps",
-                    $"{GameController.Area.CurrentArea.Name} ({DateTime.Now}).txt");
-
-                File.WriteAllText(path, serializeObject);
+                    $"{GameController.Area.CurrentArea.Name}_Grouped.txt");//({DateTime.Now}).txt");
+                File.WriteAllLines(path, PreloadDebug);
             }
 
             if (ImGui.Button("Show all preloads"))
