@@ -122,6 +122,9 @@ Metadata/Monsters/Avatar/Avatar33; Harbinger Avatar33; ffff00ff
 Metadata/Monsters/Avatar/Avatar34; Harbinger Avatar34; ffff00ff
 Metadata/Monsters/Avatar/Avatar35; Harbinger Avatar35; ffff00ff
 
+# HARBINGER BOSS
+Metadata/Monsters/Avatar/AvatarBossAtlas; Harbinger Boss; ffff00ff
+
 # BESTIARY
 Metadata/Monsters/Masters/Einhar; Einhar, Beastmaster; ff64ffff
 Metadata/Monsters/LeagueBestiary/BlackScorpionBestiary;Fenumal Scorpion [Randomise Unique]; ffd2742d
