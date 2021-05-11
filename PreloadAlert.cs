@@ -693,45 +693,6 @@ namespace PreloadAlert
                 return;
             }
 
-            if (Settings.Essence)
-            {
-                var essence_alert = Essences.Where(kv => text.StartsWith(kv.Key, StringComparison.OrdinalIgnoreCase)).Select(kv => kv.Value)
-                    .FirstOrDefault();
-
-                if (essence_alert != null)
-                {
-                    essencefound = true;
-
-                    if (alerts.ContainsKey("Remnant of Corruption"))
-
-                        //TODO: TEST ESSENCE
-                    {
-                        lock (_locker)
-                        {
-                            alerts.Remove("Remnant of Corruption");
-                        }
-                    }
-
-                    lock (_locker)
-                    {
-                        alerts[essence_alert.Text] = essence_alert;
-                    }
-
-                    return;
-                }
-
-                if (!essencefound && text.Contains("MiniMonolith"))
-                {
-                    lock (_locker)
-                    {
-                        alerts["Remnant of Corruption"] = new PreloadConfigLine
-                        {
-                            Text = "Remnant of Corruption", FastColor = () => Settings.RemnantOfCorruption
-                        };
-                    }
-                }
-            }
-
             var perandus_alert = PerandusLeague.Where(kv => text.StartsWith(kv.Key, StringComparison.OrdinalIgnoreCase))
                 .Select(kv => kv.Value).FirstOrDefault();
 
