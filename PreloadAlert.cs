@@ -19,7 +19,7 @@ namespace PreloadAlert
 {
     public class PreloadAlert : BaseSettingsPlugin<PreloadAlertSettings>
     {
-        private string PRELOAD_ALERTS => Path.Combine(DirectoryFullName,"config","preload_alerts.txt");
+        private string PRELOAD_ALERTS => Path.Combine(DirectoryFullName,"config","preload_alerts_default.txt");
         private string PRELOAD_ALERTS_PERSONAL => Path.Combine(DirectoryFullName, "config", "preload_alerts_personal.txt");
         public static Dictionary<string, PreloadConfigLine> Essences;
         public static Dictionary<string, PreloadConfigLine> PerandusLeague;

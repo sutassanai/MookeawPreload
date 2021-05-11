@@ -421,6 +421,25 @@ Metadata/Monsters/Skeletons/ConstructBossInvasion; Invasion Boss, The Spiritless
 Metadata/Monsters/GhostPirates/GhostPirateBossInvasion; Invasion Boss, Droolscar; ffDC143C
 Metadata/Monsters/Rhoas/RhoaAlbino; Albino Rhoa
 
+#INVASION BOSSES (Tirn's End EXTRA)
+Metadata/Monsters/DemonFemale/WhipDemonBossSideAreaInvasion; Invasion Boss, Cava, Artist of Pain; ffDC143C
+Metadata/Monsters/DemonBosses/DemonBoss3/Demon3BossSideAreaInvasion; Invasion Boss, Ch'aska, Maker of Rain; ffDC143C
+Metadata/Monsters/Snake/SnakeScorpionBossSideAreaInvasion; Invasion Boss, Thornrunner; ffDC143C
+Metadata/Monsters/GhostPirates/GhostPirateBossSideAreaInvasion; Invasion Boss, Coniraya, Shadow of Malice; ffDC143C
+Metadata/Monsters/Cannibal/CannibalBossSideAreaInvasion; Invasion Boss, Perquil the Lucky; ffDC143C
+Metadata/Monsters/Snake/SnakeRoboBossSideAreaInvasion_; Invasion Boss, Wiraqucha, Ancient Guardian; ffDC143C
+Metadata/Monsters/DemonBosses/DemonBoss2/Demon2BossSideAreaInvasion; Invasion Boss, Wiraq, the Impaler; ffDC143C
+Metadata/Monsters/InsectSpawner/CarrionQueenBossSideAreaInvasion; Invasion Boss, The Sunburst Queen; ffDC143C
+Metadata/Monsters/Totems/TotemBossSideAreaInvasion; Invasion Boss, M'gaska, the Living Pyre; ffDC143C
+Metadata/Monsters/Skeletons/ConstructRangedBossSideAreaInvasion; Invasion Boss, Kutec, Vaal Fleshsmith; ffDC143C
+Metadata/Monsters/Spiders/SpiderBossSideAreaInvasion; Invasion Boss, Cintiq, the Inescapable; ffDC143C
+Metadata/Monsters/Pyromaniac/PyromaniacBossSideAreaInvasion; Invasion Boss, Curator Miem; ffDC143C
+Metadata/Monsters/Goatman/GoatmanShamanBossSideAreaInvasion; Invasion Boss, Sheaq, Maker of Floods; ffDC143C
+Metadata/Monsters/DemonModular/DemonModularElementsBossSideAreaInvasion; Invasion Boss, Atziri's Pride; ffDC143C
+Metadata/Monsters/Seawitch/SeaWitchBossSideAreaInvasion; Invasion Boss, Rima, Deep Temptress; ffDC143C
+Metadata/Monsters/Goatman/GoatmanLeapBossSideAreaInvasion; Invasion Boss, Konu, Maker of Wind; ffDC143C
+Metadata/Monsters/Kiweth/KiwethBossSideAreaInvasion; Invasion Boss, Inti of the Blood Moon; ffDC143C
+
 # TORMENTED SPIRITS
 Metadata/Monsters/Spirit/TormentedArsonist; Tormented Arsonist; ffC6FFC6
 Metadata/Monsters/Spirit/TormentedFreezer; Tormented Aurora Cultist; ffC6FFC6
