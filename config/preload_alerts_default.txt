@@ -230,6 +230,36 @@ Metadata/Chests/LeagueHeist/HeistSmugglersCoinCacheOutdoors; Heist; ffcfb109
 # RITUAL
 Metadata/Terrain/Leagues/Ritual/RitualRuneLight; Ritual; ffffb176
 
+# ESSENCES
+Metadata/Monsters/Daemon/EssenceDaemonMeteorFirestorm; Essence of Anguish; #ffff00
+Metadata/Monsters/Daemon/EssenceDaemonFirePulse; Essence of Anger; #ffff00
+Metadata/Monsters/Daemon/EssenceDaemonColdPulse; Essence of Hatred; #ffff00 
+Metadata/Monsters/Daemon/EssenceDaemonLightningPulse; Essence of Wrath; #ffff00 
+Metadata/Monsters/Daemon/EssenceDaemonSummonOrbOfStormsDaemon; Essence of Torment; #ffff00
+Metadata/Monsters/Daemon/EssenceDaemonSummonGhost; Essence of Fear; #ffff00
+Metadata/Monsters/Daemon/EssenceDaemonFrostBomb; Essence of Suffering; #ffff00 
+Metadata/Monsters/Daemon/EssenceDaemonBuffToParentCasterDodge; Essence of Zeal; #ffff00 
+Metadata/Monsters/Daemon/EssenceDaemonBuffToParentCasterDamageTaken; Essence of Loathing; #ffff00 
+Metadata/Monsters/Daemon/EssenceDaemonTotemGroundEffectVortex; Essence of Sorrow; #ffff00
+Metadata/Monsters/Daemon/EssenceDaemonSummonKaruiSpirit; Essence of Contempt; #ffff00
+Metadata/Monsters/Daemon/EssenceDaemonFireRuneTrap; Essence of Rage; #ffff00 
+Metadata/Monsters/Daemon/EssenceDaemonBloodProjectileDaemon; Essence of Greed; #ffff00 
+Metadata/Monsters/Daemon/EssenceDaemonSummonLivingCrystals; Essence of Woe; #ffff00 
+Metadata/Monsters/Daemon/EssenceDaemonSummonSpiders; Essence of Doubt; #ffff00 
+Metadata/Monsters/Daemon/EssenceDaemonTotemGroundEffectShocked; Essence of Spite; #ffff00 
+
+# ESSENCES CORRUPTION
+Metadata/Monsters/Daemon/EssenceDaemonChaosDegenPulse; Essence of Misery (Suggest: Corruption); #8800ff
+Metadata/Monsters/Daemon/EssenceDaemonGrab; Essence of Envy (Suggest: Corruption); #8800ff
+Metadata/Monsters/Daemon/EssenceDaemonBuffToParentCasterCrit; Essence of Scorn (Suggest: Corruption); #8800ff
+Metadata/Monsters/Daemon/EssenceDaemonSummonChaosGolem; Essence of Dread (Suggest: Corruption); #8800ff 
+
+# ESSENCES T8
+Metadata/Monsters/Daemon/EssenceDaemonMadness1; Essence of Hysteria; #ff0000
+Metadata/Monsters/Daemon/EssenceDaemonInsanity1; Essence of Insanity; #ff0000
+Metadata/Monsters/Daemon/EssenceDaemonHorror1; Essence of Horror; #ff0000
+Metadata/Monsters/Daemon/EssenceDaemonTerror1_; Essence of Delirium; #ff0000
+
 ###################################################################################################
 #
 #	SPECIAL
@@ -342,7 +372,7 @@ Metadata/Monsters/DemonBosses/DemonBoss3/Demon3BossSideArea; Ch'aska, Maker of R
 Metadata/Monsters/SandSpitterEmerge/SandSpitterBossSideArea; Mother of the Hive; ffDC143C
 Metadata/Monsters/Seawitch/SeaWitchBossSideArea; Rima, Deep Temptress; ffDC143C
 
-#Extra vaal Bosses
+# EXTRA VAAL BOSSES
 Metadata/Monsters/SandLeaper/SandLeaperBossSideArea; Quetzerxi; ffDC143C
 Metadata/Monsters/SkeletonSoldier/SkeletonSoldierMeleeBossSideArea; Calxipher; ffDC143C
 Metadata/Monsters/Banshee/VaalSideAreaBoss8; Iorphia, Dream Eater; ffDC143C
@@ -421,7 +451,7 @@ Metadata/Monsters/Skeletons/ConstructBossInvasion; Invasion Boss, The Spiritless
 Metadata/Monsters/GhostPirates/GhostPirateBossInvasion; Invasion Boss, Droolscar; ffDC143C
 Metadata/Monsters/Rhoas/RhoaAlbino; Albino Rhoa
 
-#INVASION BOSSES (Tirn's End EXTRA)
+# INVASION BOSSES (Tirn's End EXTRA)
 Metadata/Monsters/DemonFemale/WhipDemonBossSideAreaInvasion; Invasion Boss, Cava, Artist of Pain; ffDC143C
 Metadata/Monsters/DemonBosses/DemonBoss3/Demon3BossSideAreaInvasion; Invasion Boss, Ch'aska, Maker of Rain; ffDC143C
 Metadata/Monsters/Snake/SnakeScorpionBossSideAreaInvasion; Invasion Boss, Thornrunner; ffDC143C
