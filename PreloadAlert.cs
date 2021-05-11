@@ -97,16 +97,22 @@ namespace PreloadAlert
             if (ImGui.Button("Dump preloads"))
             {
                 Directory.CreateDirectory(Path.Combine(DirectoryFullName, "Dumps"));
-                var path = Path.Combine(DirectoryFullName, "Dumps",
-                    $"{GameController.Area.CurrentArea.Name}.txt");//({DateTime.Now}).txt");
+                var path = Path.Combine(
+                    DirectoryFullName, 
+                    "Dumps", 
+                    $"{GameController.Area.CurrentArea.Name}_{DateTime.Now.Ticks}.txt"
+                    );
                 File.WriteAllLines(path, PreloadDebug);
             }
 
             if (ImGui.Button("Dump grouped preloads"))
             {
                 Directory.CreateDirectory(Path.Combine(DirectoryFullName, "Dumps"));
-                var path = Path.Combine(DirectoryFullName, "Dumps",
-                    $"{GameController.Area.CurrentArea.Name}_Grouped.txt");//({DateTime.Now}).txt");
+                var path = Path.Combine(
+                    DirectoryFullName, 
+                    "Dumps", 
+                    $"{GameController.Area.CurrentArea.Name}_Grouped_{DateTime.Now.Ticks}.txt"
+                    );
                 File.WriteAllLines(path, PreloadDebug);
             }
 
