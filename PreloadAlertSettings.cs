@@ -44,7 +44,7 @@ namespace PreloadAlert
             PerandusManorDivinationCardsChest = new ColorBGRA(153, 255, 51, 255);
             PerandusManorLostTreasureChest = new ColorBGRA(153, 255, 51, 255);
 
-            MasterZana = new ColorBGRA(255, 2550, 0, 255);
+            MasterZana = new ColorBGRA(255, 255, 0, 255);
             MasterCatarina = new ColorBGRA(100, 255, 255, 255);
             MasterTora = new ColorBGRA(100, 255, 255, 255);
             MasterVorici = new ColorBGRA(100, 255, 255, 255);
