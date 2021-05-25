@@ -118,6 +118,7 @@ namespace PreloadAlert
                     if (file.Value.ChangeCount != GameController.Game.AreaChangeCount) continue;
                         
                     var text = file.Key;
+                    if (string.IsNullOrWhiteSpace(text)) continue;
                     if (text.Contains('@')) text = text.Split('@')[0];
 
                     PreloadDebug.Add(text);
@@ -205,7 +206,7 @@ namespace PreloadAlert
         private void CheckForPreload(string text)
         {
             var preloadLine = PreloadConfigLines
-                .FirstOrDefault(tuple => tuple.Key.Contains(text));
+                .FirstOrDefault(tuple => text.Contains(tuple.Key));
             if (preloadLine.Equals(default(KeyValuePair<string, PreloadConfigLine>))) return;
 
             AlertsToDraw.TryAdd(preloadLine.Key, preloadLine.Value);
