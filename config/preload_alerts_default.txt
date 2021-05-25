@@ -73,6 +73,25 @@ Metadata/Monsters/Perandus/PerandusGuardSecondaryBoss5_; Anaveli, Vault Binder; 
 Metadata/Monsters/Perandus/PerandusGuardSecondaryBoss6; Rothus, Vault Binder; ffFFD700
 Metadata/Monsters/Perandus/PerandusGuardSecondaryBoss7; Arinea, Vault Binder; ffFFD700
 Metadata/Monsters/Perandus/PerandusGuardSecondaryBoss8; Meritania, Vault Binder; ffFFD700
+Metadata/Chests/PerandusChests/PerandusChestStandard;Perandus Chest;ffFFD700
+Metadata/Chests/PerandusChests/PerandusChestRarity;Perandus Cache;ffFFD700
+Metadata/Chests/PerandusChests/PerandusChestQuantity;Perandus Hoard;ffFFD700
+Metadata/Chests/PerandusChests/PerandusChestCoins;Perandus Coffer;ffFFD700
+Metadata/Chests/PerandusChests/PerandusChestJewellery;Perandus Jewellery Box;ffFFD700
+Metadata/Chests/PerandusChests/PerandusChestGems;Perandus Safe;ffFFD700
+Metadata/Chests/PerandusChests/PerandusChestCurrency;Perandus Treasury;ffFFD700
+Metadata/Chests/PerandusChests/PerandusChestInventory;Perandus Wardrobe;ffFFD700
+Metadata/Chests/PerandusChests/PerandusChestDivinationCards;Perandus Catalogue;ffFFD700
+Metadata/Chests/PerandusChests/PerandusChestKeepersOfTheTrove;Perandus Trove;ffFFD700
+Metadata/Chests/PerandusChests/PerandusChestUniqueItem;Perandus Locker;ffFFD700
+Metadata/Chests/PerandusChests/PerandusChestMaps;Perandus Archive;ffFFD700
+Metadata/Chests/PerandusChests/PerandusChestFishing;Perandus Tackle Box;ffFFD700
+Metadata/Chests/PerandusChests/PerandusManorUniqueChest;Cadiro's Locker;ffFFD700
+Metadata/Chests/PerandusChests/PerandusManorCurrencyChest;Cadiro's Treasury;ffFFD700
+Metadata/Chests/PerandusChests/PerandusManorMapsChest;Cadiro's Archive;ffFFD700
+Metadata/Chests/PerandusChests/PerandusManorJewelryChest;Cadiro's Jewellery Box;ffFFD700
+Metadata/Chests/PerandusChests/PerandusManorDivinationCardsChest;Cadiro's Catalogue;ffFFD700
+Metadata/Chests/PerandusChests/PerandusManorLostTreasureChest;Grand Perandus Vault;ffFFD700
 
 # HARBINGER
 Metadata/Monsters/Avatar/Avatar1; Harbinger Avatar1; ff3399ff
@@ -259,6 +278,9 @@ Metadata/Monsters/Daemon/EssenceDaemonMadness1; Essence of Hysteria; ffff0000
 Metadata/Monsters/Daemon/EssenceDaemonInsanity1; Essence of Insanity; ffff0000
 Metadata/Monsters/Daemon/EssenceDaemonHorror1; Essence of Horror; ffff0000
 Metadata/Monsters/Daemon/EssenceDaemonTerror1_; Essence of Delirium; ffff0000
+
+# ZANA
+Metadata/NPC/Missions/Wild/StrDexInt; Zana;ffff0000 
 
 ###################################################################################################
 #
@@ -607,34 +629,72 @@ Metadata/Monsters/Daemon/TempestDaemonEnvironmentalUberPhysical; Tempest Daemon
 Metadata/Monsters/Daemon/TempestDaemonEnvironmentalCurses; Tempest Daemon
 Metadata/Monsters/Daemon/TempestDaemonEnvironmentalSmoke; Tempest Daemon
 
-# SHAPER'S MEMORIES - commented out, legacy content
-#Metadata/NPC/Info/ShaperGlyph1; Shaper's Memory of Home (T8); 9400d8ff
-#Metadata/NPC/Info/ShaperGlyph2; Shaper's Memory of Intrigue (T9); 9400d8ff
-#Metadata/NPC/Info/ShaperGlyph3; Shaper's Memory of Wonder (T10); 9400d8ff
-#Metadata/NPC/Info/ShaperGlyph4; Shaper's Memory of Dream (T11); 9400d8ff
-#Metadata/NPC/Info/ShaperGlyph5; Shaper's Memory of Nightmare (T12); 9400d8ff
-#Metadata/NPC/Info/ShaperGlyph6; Shaper's Memory of Grief (T13); 9400d8ff
-#Metadata/NPC/Info/ShaperGlyph7; Shaper's Memory of Awakening (T14); 9400d8ff
-
-
 # CRAFTING RECIPES
-#Metadata/Terrain/Missions/CraftingUnlocks/BeastRecipe; Crafting Recipe; ff964DF1
-#Metadata/Terrain/Missions/CraftingUnlocks/Helena; Crafting Recipe; ff964DF1
-#Metadata/Terrain/Missions/CraftingUnlocks/RecipeDecayed; Crafting Recipe; ff964DF1
-#Metadata/Terrain/Missions/CraftingUnlocks/RecipeDelve; Crafting Recipe; ff964DF1
-#Metadata/Terrain/Missions/CraftingUnlocks/RecipeGravestone; Crafting Recipe; ff964DF1
-#Metadata/Terrain/Missions/CraftingUnlocks/RecipeMap; Crafting Recipe; ff964DF1
-#Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockBase; Crafting Recipe; ff964DF1
-#Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockBeast; Crafting Recipe; ff964DF1
-#Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockBoundBook; Crafting Recipe; ff964DF1
-#Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockDecayed; Crafting Recipe; ff964DF1
-#Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockDelve; Crafting Recipe; ff964DF1
-#Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockGoldenBookstand; Crafting Recipe; ff964DF1
-#Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockGravestone; Crafting Recipe; ff964DF1
-#Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockKaruiPillar; Crafting Recipe; ff964DF1
-#Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockLabyrinth; Crafting Recipe; ff964DF1
-#Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockMap; Crafting Recipe; ff964DF1
-#Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockRunestone; Crafting Recipe; ff964DF1
-#Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockTemplarBook; Crafting Recipe; ff964DF1
-#Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockTemplarBookNoHelena; Crafting Recipe; ff964DF1
-#Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockVaal; Crafting Recipe; ff964DF1
+Metadata/Terrain/Missions/CraftingUnlocks/BeastRecipe; Crafting Recipe; ff964DF1
+Metadata/Terrain/Missions/CraftingUnlocks/Helena; Crafting Recipe; ff964DF1
+Metadata/Terrain/Missions/CraftingUnlocks/RecipeDecayed; Crafting Recipe; ff964DF1
+Metadata/Terrain/Missions/CraftingUnlocks/RecipeDelve; Crafting Recipe; ff964DF1
+Metadata/Terrain/Missions/CraftingUnlocks/RecipeGravestone; Crafting Recipe; ff964DF1
+Metadata/Terrain/Missions/CraftingUnlocks/RecipeMap; Crafting Recipe; ff964DF1
+Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockBase; Crafting Recipe; ff964DF1
+Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockBeast; Crafting Recipe; ff964DF1
+Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockBoundBook; Crafting Recipe; ff964DF1
+Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockDecayed; Crafting Recipe; ff964DF1
+Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockDelve; Crafting Recipe; ff964DF1
+Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockGoldenBookstand; Crafting Recipe; ff964DF1
+Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockGravestone; Crafting Recipe; ff964DF1
+Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockKaruiPillar; Crafting Recipe; ff964DF1
+Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockLabyrinth; Crafting Recipe; ff964DF1
+Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockMap; Crafting Recipe; ff964DF1
+Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockRunestone; Crafting Recipe; ff964DF1
+Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockTemplarBook; Crafting Recipe; ff964DF1
+Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockTemplarBookNoHelena; Crafting Recipe; ff964DF1
+Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockVaal; Crafting Recipe; ff964DF1
+
+# STRONGBOXES
+Metadata/Chests/StrongBoxes/Arcanist;Arcanist's Strongbox;ff99ff33
+Metadata/Chests/StrongBoxes/Artisan;Artisan's Strongbox;ff99ff33
+Metadata/Chests/StrongBoxes/Cartographer;Cartographer's Strongbox;ff99ff33
+Metadata/Chests/StrongBoxes/Diviner;Diviner's Strongbox;ff99ff33
+Metadata/Chests/StrongBoxes/StrongboxDivination;Diviner's Strongbox;ff99ff33
+Metadata/Chests/StrongBoxes/Gemcutter;Gemcutter's Strongbox;ff99ff33
+Metadata/Chests/StrongBoxes/Jeweller;Jeweller's Strongbox;ff99ff33
+Metadata/Chests/StrongBoxes/Arsenal;Blacksmith's Strongbox;ff99ff33
+Metadata/Chests/StrongBoxes/Armory;Armourer's Strongbox;ff99ff33
+Metadata/Chests/StrongBoxes/Ornate;Ornate Strongbox;ff99ff33
+Metadata/Chests/StrongBoxes/Large;Large Strongbox;ff99ff33
+Metadata/Chests/StrongBoxes/Strongbox;Simple Strongbox;ff99ff33
+Metadata/Chests/CopperChests/CopperChestEpic3;Epic Chest;ff99ff33
+Metadata/Chests/StrongBoxes/PerandusBox;Perandus Strongbox;ff99ff33
+Metadata/Chests/StrongBoxes/KaomBox;Kaom Strongbox;ff99ff33
+Metadata/Chests/StrongBoxes/MalachaisBox;Malachai Strongbox;ff99ff33
+
+# EXILES
+ExileDuelist1;Exile Torr Olgosso;ff99ff33
+ExileDuelist2;Exile Armios Bell;ff99ff33
+ExileDuelist4;Exile Zacharie Desmarais;ff99ff33
+ExileDuelist5;Exile Oyra Ona;ff99ff33
+ExileMarauder1;Exile Jonah Unchained;ff99ff33
+ExileMarauder2;Exile Damoi Tui;ff99ff33
+ExileMarauder3;Exile Xandro Blooddrinker;ff99ff33
+ExileMarauder5;Exile Vickas Giantbone;ff99ff33
+ExileMarauder6__;Exile Bolt Brownfur;ff99ff33
+ExileRanger1;Exile Orra Greengate;ff99ff33
+ExileRanger2;Exile Thena Moga;ff99ff33
+ExileRanger3;Exile Antalie Napora;ff99ff33
+ExileRanger5;Exile Ailentia Rac;ff99ff33
+ExileScion2;Exile Augustina Solaria;ff99ff33
+ExileScion3;Exile Lael Furia;ff99ff33
+ExileScion4;Exile Vanth Agiel;ff99ff33
+ExileShadow1_;Exile Ion Darkshroud;ff99ff33
+ExileShadow2;Exile Ash Lessard;ff99ff33
+ExileShadow4;Exile Wilorin Demontamer;ff99ff33
+ExileShadow5;Exile Ulysses Morvant;ff99ff33
+ExileTemplar1;Exile Eoin Greyfur;ff99ff33
+ExileTemplar2;Exile Tinevin Highdove;ff99ff33
+ExileTemplar4;Exile Magnus Stonethorn;ff99ff33
+ExileTemplar5;Exile Aurelio Voidsinger;ff99ff33
+ExileWitch1;Exile Minara Anenima;ff99ff33
+ExileWitch2;Exile Igna Phoenix;ff99ff33
+ExileWitch4;Exile Dena Lorenni;ff99ff33
+

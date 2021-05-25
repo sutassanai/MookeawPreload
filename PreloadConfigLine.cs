@@ -5,7 +5,7 @@ namespace PreloadAlert
 {
     public class PreloadConfigLine : ConfigLineBase
     {
-        public Func<Color> FastColor;
+        public Func<Color> FastColor { get; set; }
     }
 
     public abstract class ConfigLineBase
