@@ -1,18 +1,12 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using ExileCore;
-using ExileCore.PoEMemory;
-using ExileCore.Shared;
 using ExileCore.Shared.Enums;
 using ExileCore.Shared.Helpers;
 using ImGuiNET;
-using Newtonsoft.Json;
 using SharpDX;
 using Vector2 = System.Numerics.Vector2;
 
@@ -27,7 +21,6 @@ namespace PreloadAlert
         private Action<string, Color> AddPreload => ExternalPreloads;
         private List<string> PreloadDebug { get; } = new List<string>();
         private Action PreloadDebugAction { get; set; }
-        private static Color AreaNameColor { get; set; }
 
         public override void OnLoad()
         {
@@ -40,7 +33,6 @@ namespace PreloadAlert
         public override bool Initialise()
         {
             GameController.PluginBridge.SaveMethod($"{nameof(PreloadAlert)}.{nameof(AddPreload)}", AddPreload);
-            AreaNameColor = Settings.AreaTextColor;
             GameController.LeftPanel.WantUse(() => Settings.Enable);
             AreaChange(GameController.Area.CurrentArea);
             return true;
@@ -57,8 +49,9 @@ namespace PreloadAlert
             {
                 File.Create(PreloadAlertsPersonal);
                 DebugWindow.LogMsg($"PreloadAlert.ReadConfigFiles -> Personal config file got created: {PreloadAlertsPersonal}");
-                return;
             }
+
+            PreloadConfigLines.Clear();
 
             AddLinesFromFile(PreloadAlerts, PreloadConfigLines);
             AddLinesFromFile(PreloadAlertsPersonal, PreloadConfigLines);
@@ -135,7 +128,11 @@ namespace PreloadAlert
 
         public override Job Tick()
         {
-            if (Input.GetKeyState(Settings.ReloadKey.Value)) AreaChange(GameController.Area.CurrentArea);
+            if (Input.GetKeyState(Settings.ReloadKey.Value))
+            {
+                ReadConfigFiles();
+                AreaChange(GameController.Area.CurrentArea);
+            }
             return null;
         }
 

@@ -12,14 +12,12 @@ namespace PreloadAlert
             Enable = new ToggleNode(true);
             BackgroundColor = new ColorBGRA(0, 0, 0, 255);
             DefaultTextColor = new ColorBGRA(210, 210, 210, 255);
-            AreaTextColor = new ColorBGRA(150, 200, 250, 255);
             ReloadKey = new HotkeyNode(Keys.F5);
         }
 
         public ToggleNode Enable { get; set; }
         public ColorNode BackgroundColor { get; set; }
         public ColorNode DefaultTextColor { get; set; }
-        public ColorNode AreaTextColor { get; set; }
         public HotkeyNode ReloadKey { get; set; }
     }
 }
