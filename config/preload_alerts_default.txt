@@ -1,4 +1,4 @@
-#Metadata; Text; Color (ARGB)
+﻿#Metadata; Text; Color (ARGB)
 #Example: Metadata/Chests/StrongBoxes/Strongbox; ; ff00FF00
 
 ###################################################################################################
@@ -279,14 +279,19 @@ Metadata/Monsters/Daemon/EssenceDaemonInsanity1; Essence of Insanity; ffff0000
 Metadata/Monsters/Daemon/EssenceDaemonHorror1; Essence of Horror; ffff0000
 Metadata/Monsters/Daemon/EssenceDaemonTerror1_; Essence of Delirium; ffff0000
 
-# ZANA
-Metadata/NPC/Missions/Wild/StrDexInt; Zana;ffff0000 
+# EXPEDITION
+Metadata/Monsters/LeagueExpedition/NPC/Rog.ao;Rog [Item crafter];ff00FF00
+Metadata/NPC/League/Expedition/Tujen/Tujen.ao;Tujen [Сurrency gambler];ff00FF00
+Metadata/Monsters/LeagueExpedition/NPC/Gwennen.ao;Gwennen [Item gambler];ff00FF00
 
 ###################################################################################################
 #
 #	SPECIAL
 #
 ###################################################################################################
+# ZANA
+Metadata/NPC/Missions/Wild/StrDexInt; Zana;ffff0000 
+
 # ATLAS - Conquerors
 Metadata/Monsters/AtlasExiles/AtlasExile1Influence_; Baran1; ff36B400
 Metadata/Monsters/AtlasExiles/AtlasExile1Influence; Baran2; ff36B400
