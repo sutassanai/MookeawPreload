@@ -142,6 +142,7 @@ namespace PreloadAlert
             if (!Settings.Enable
                 || GameController.Area.CurrentArea == null
                 || GameController.Area.CurrentArea.IsTown
+                || GameController.Area.CurrentArea.IsHideout
                 || GameController.IsLoading
                 || !GameController.InGame
                 || GameController.Game.IngameState.IngameUi.StashElement.IsVisibleLocal
