@@ -281,7 +281,7 @@ Metadata/Monsters/Daemon/EssenceDaemonTerror1_; Essence of Delirium; ffff0000
 
 # EXPEDITION
 Metadata/Monsters/LeagueExpedition/NPC/Rog.ao;Rog [Item crafter];ff00FF00
-Metadata/NPC/League/Expedition/Tujen/Tujen.ao;Tujen [Сurrency gambler];ff00FF00
+Metadata/Monsters/LeagueExpedition/NPC/Tujen.ao;Tujen [Сurrency gambler];ff00FF00
 Metadata/Monsters/LeagueExpedition/NPC/Gwennen.ao;Gwennen [Item gambler];ff00FF00
 
 ###################################################################################################
