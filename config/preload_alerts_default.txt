@@ -279,10 +279,11 @@ Metadata/Monsters/Daemon/EssenceDaemonInsanity1; Essence of Insanity; ffff0000
 Metadata/Monsters/Daemon/EssenceDaemonHorror1; Essence of Horror; ffff0000
 Metadata/Monsters/Daemon/EssenceDaemonTerror1_; Essence of Delirium; ffff0000
 
-# EXPEDITION
-Metadata/Monsters/LeagueExpedition/NPC/Rog.ao;Rog [Item crafter];ff00FF00
-Metadata/Monsters/LeagueExpedition/NPC/Tujen.ao;Tujen [Сurrency gambler];ff00FF00
-Metadata/Monsters/LeagueExpedition/NPC/Gwennen.ao;Gwennen [Item gambler];ff00FF00
+#EXPEDITION
+Metadata/Monsters/LeagueExpedition/NPC/Rog.ao;Rog [Items crafter];ff00FF00
+Metadata/Monsters/LeagueExpedition/NPC/Tujen.ao;Tujen [Currency gambler];ff00FF00
+Metadata/Monsters/LeagueExpedition/NPC/Gwennen.ao;Gwennen [Items gambler];ff00FF00
+Metadata/Monsters/LeagueExpedition/NPC/Dannig.act;Dannig [Exchange items];ff00FF00
 
 ###################################################################################################
 #
