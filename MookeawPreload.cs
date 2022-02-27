@@ -32,7 +32,7 @@ namespace MookeawPreload
 
         public override bool Initialise()
         {
-            GameController.PluginBridge.SaveMethod($"{nameof(PreloadAlert)}.{nameof(AddPreload)}", AddPreload);
+            GameController.PluginBridge.SaveMethod($"{nameof(MookeawPreload)}.{nameof(AddPreload)}", AddPreload);
             GameController.LeftPanel.WantUse(() => Settings.Enable);
             AreaChange(GameController.Area.CurrentArea);
             return true;
@@ -123,7 +123,7 @@ namespace MookeawPreload
             }
             catch (Exception e)
             {
-                DebugWindow.LogError($"{nameof(PreloadAlert)} -> {e}");
+                DebugWindow.LogError($"{nameof(MookeawPreload)} -> {e}");
             }
         }
 
