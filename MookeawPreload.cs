@@ -174,7 +174,7 @@ namespace MookeawPreload
             if (!ShouldRender()) return;
             var startDrawPoint = GameController.LeftPanel.StartDrawPoint;
             var f = startDrawPoint.Y;
-            var maxWidth = 0f;
+            var maxWidth = 1f;
             var lastLine = Vector2.Zero;
 
             var toDraw = AlertsToDraw
